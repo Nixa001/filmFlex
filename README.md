@@ -1,6 +1,6 @@
 ## Comment Commencer
 
-Bienvenue sur MoviFlex ! Pour démarrer et explorer l'univers cinématographique, suivez ces étapes simples :
+Bienvenue sur FilmFlex ! Pour démarrer et explorer l'univers cinématographique, suivez ces étapes simples :
 
 ### Prérequis
 
@@ -11,7 +11,7 @@ Assurez-vous d'avoir [Node.js](https://nodejs.org/) installé sur votre machine.
 1. **Clonez le dépôt :**
 
    ```bash
-   git clone https://github.com/nixa001/MoviFlex.git
+   git clone https://github.com/nixa001/filmFlex.git
    ```
 
 2. **Accédez au répertoire du projet :**
