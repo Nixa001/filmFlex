@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 :root {
+  --White-color: #fff;
   --Gray-color: #e8ddcc;
   --Black-color: #030405;
   --Red-color: #fd0101;
@@ -43,12 +44,16 @@
   font-weight: 700;
 } */
 body {
-  font-family: "Roboto Regular", sans-serif;
+  font-family: "Roboto Medium", sans-serif;
   /* font-weight: 700; */
   font-style: normal;
   font-weight: 800;
-  color: var(--Gray-color);
+  color: var(--White-color);
   background: var(--Black-color);
+}
+
+.gradientoright {
+  background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
 }
 
 .gray-text {
@@ -62,6 +67,7 @@ body {
 .orange-text {
   color: var(--Orange-color);
 }
+
 .orange-bg {
   background: var(--Orange-color);
 }
