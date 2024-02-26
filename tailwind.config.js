@@ -1,9 +1,13 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
   theme: {
     extend: {
       fontFamily: {
+        "netflix-regular": ["Netflix Regular"],
         "roboto-regular": ["Roboto Regular"],
         "roboto-medium": ["Roboto Medium"],
         "roboto-bold": ["Roboto Bold"],
